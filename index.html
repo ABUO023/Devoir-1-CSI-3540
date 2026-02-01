@@ -1,0 +1,137 @@
+<!--  
+    This project is for CSI 3540 - WWW and Structures
+
+    It's written in HTML.
+
+    I am using inline CSS with Tailwind CSS via CDN.
+-->
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page personnelle — Aditya</title>
+
+    <!-- Tailwind CSS (CDN, plain HTML) -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="bg-neutral-950 text-neutral-100 antialiased">
+    <!-- Header -->
+    <header class="border-b border-neutral-800">
+      <div class="max-w-3xl mx-auto px-6 py-8">
+        <h1 class="text-3xl font-bold tracking-tight">
+          Bonjour, je m’appelle
+          <a
+            href="https://adityabaindur.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-blue-400 hover:underline"
+          >
+            Aditya
+          </a>
+        </h1>
+        <p class="mt-2 text-neutral-400">
+          Page personnelle —
+          <strong>CSI3540A : Structures et normes du Web</strong>
+        </p>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="max-w-3xl mx-auto px-6 py-10 space-y-12">
+      <!-- About -->
+      <section>
+        <article class="space-y-4">
+          <h2 class="text-xl font-semibold">À propos de moi</h2>
+          <p class="text-neutral-300 leading-relaxed">
+            Je suis étudiant en génie logiciel et je m’intéresse au développement web,
+            aux technologies cloud et à la création d’interfaces simples, propres et accessibles.
+            Cette page a été créée entièrement en HTML dans le cadre du cours CSI3540.
+          </p>
+
+          <figure class="mt-6">
+            <img
+              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1000&q=80"
+              alt="Illustration représentant le travail collaboratif"
+              class="rounded-xl border border-neutral-800"
+            />
+            <figcaption class="mt-2 text-sm text-neutral-500 text-center">
+            Illustration représentant le travail collaboratif.
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+
+      <!-- Interests -->
+      <section>
+        <article class="space-y-4">
+          <h2 class="text-xl font-semibold">Mes intérêts</h2>
+          <ul class="list-disc list-inside text-neutral-300 space-y-1">
+            <li>Développement web (HTML, CSS, JavaScript)</li>
+            <li>Interfaces utilisateur simples et minimalistes</li>
+            <li>Cloud et hébergement de sites web</li>
+            <li>Apprentissage continu et projets personnels</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Resource -->
+      <section>
+        <article class="space-y-2">
+          <h2 class="text-xl font-semibold">Ressource utile</h2>
+          <p class="text-neutral-300">
+            Une excellente ressource pour apprendre le HTML :
+            <a
+              href="https://developer.mozilla.org/fr/docs/Web/HTML"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-400 hover:underline"
+            >
+              MDN Web Docs — HTML
+            </a>
+          </p>
+        </article>
+      </section>
+
+      <!-- CTA -->
+      <section>
+        <article
+          class="rounded-xl border border-neutral-800 bg-neutral-900/50 p-6 space-y-3"
+        >
+          <h2 class="text-lg font-semibold">Mon site personnel</h2>
+
+          <p class="text-neutral-300">
+            Cette page est une page académique créée pour le cours CSI3540.
+            Mon site personnel principal, qui présente mes projets et expériences,
+            est accessible via le lien suivant :
+          </p>
+
+          <a
+            href="https://adityabaindur.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block rounded-lg bg-blue-500 px-4 py-2 text-sm font-medium text-white hover:bg-blue-400 transition"
+          >
+            Visiter mon site personnel →
+          </a>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-neutral-800">
+      <div class="max-w-3xl mx-auto px-6 py-6 text-sm text-neutral-500">
+        © 2026 — CSI3540A · Page personnelle <br />
+        Contact :
+        <a
+          href="mailto:aditya@adityabaindur.dev"
+          class="hover:underline"
+        >
+          aditya@adityabaindur.dev
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
